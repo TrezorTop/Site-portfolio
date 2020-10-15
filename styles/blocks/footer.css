@@ -9,7 +9,14 @@ footer .container {
     justify-content: space-between;
 }
 
-a:hover {
+i {
+    color: gray;
+    font-size: 35px;
+    
+    transition: 250ms;
+}
+
+a:hover, i:hover {
     color: #ff6375;
 }
 
