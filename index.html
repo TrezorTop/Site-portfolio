@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт-портфолио</title>
 
+    <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/assets/owl.theme.default.min.css">
+
     <script src="https://kit.fontawesome.com/44bd8e53f8.js" crossorigin="anonymous"></script>
     <script src="libs/jquery-3.5.1.min.js"></script>
+
+    <script src="libs/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
+
     <script src="scripts/script.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -103,26 +109,32 @@
             <div class="container">
                 <h2>Примеры моих работ</h2>
 
-                <ul class="my-works-list">
-                    <li>
-                        <img src="imgs/main/my-works/Layer_2.png" alt="">
-                        <p>
-                            Сайт психолога Веры Антоновой
-                        </p>
-                    </li>
-                    <li>
-                        <img src="imgs/main/my-works/Layer_1.png" alt="">
-                        <p>
-                            Сайт магазина детской одежды
-                        </p>
-                    </li>
-                    <li>
-                        <img src="imgs/main/my-works/Layer_3.png" alt="">
-                        <p>
-                            Сайт магазина «Рыболов»
-                        </p>
-                    </li>
-                </ul>
+                <div class="owl-carousel my-works-list">
+                    <div class="item">
+                        <h4>
+                            <img src="imgs/main/my-works/Layer_2.png" alt="">
+                            <p>
+                                Сайт психолога Веры Антоновой
+                            </p>
+                        </h4>
+                    </div>
+                    <div class="item">
+                        <h4>
+                            <img src="imgs/main/my-works/Layer_1.png" alt="">
+                            <p>
+                                Сайт магазина детской одежды
+                            </p>
+                        </h4>
+                    </div>
+                    <div class="item">
+                        <h4>
+                            <img src="imgs/main/my-works/Layer_3.png" alt="">
+                            <p>
+                                Сайт магазина «Рыболов»
+                            </p>
+                        </h4>
+                    </div>
+                </div>
 
                 <button class="get-project">
                     Заказать проект

@@ -6,16 +6,15 @@
 
 .my-works-list {
     margin-top: 93px;
-    display: flex;
-    justify-content: space-between;
 }
 
-.my-works-list li {
+.my-works-list .item {
     display: inline;
     text-align: center;
+    margin: 0 15px;
 }
 
-.my-works-list li p {
+.my-works-list .item p {
     margin-top: 24px;
 
     color: #8993ad;
