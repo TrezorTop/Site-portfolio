@@ -1,0 +1,58 @@
+.works {
+    background-color: white;
+}
+
+.works div {
+    padding: 99px 0;
+}
+
+.works-list {
+    margin-top: 93px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.works-list li {
+    display: inline;
+    text-align: center;
+}
+
+.works-list li p {
+    margin-top: 24px;
+
+    color: #8993ad;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.works .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.get-price {
+    margin: 95px auto 0 auto;
+    padding: 24px 59px;
+
+    border: 1px solid transparent;
+
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #ff4e2e;
+}
+
+.get-price:hover {
+    border: 1px solid #ff4e2e;
+
+    color: #ff4e2e;
+    background-color: unset;
+}
+
+.get-price:active {
+    border: 1px solid #ff4e2e;
+
+    color: white;
+    background-color: #ff4e2e;
+}

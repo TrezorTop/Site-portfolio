@@ -1,17 +1,212 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт-портфолио</title>
 
+
     <script src="libs/jquery-3.5.1.min.js"></script>
     <script src="scripts/script.js"></script>
 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="libs/normalize.css">
 </head>
+
 <body>
-    
+    <header>
+        <article class="container">
+            <nav>
+                <ul class="navbar-left">
+                    <li>
+                        <a href="#">Услуги</a>
+                    </li>
+                    <li>
+                        <a href="#">Портфолио</a>
+                    </li>
+                    <li>
+                        <a href="#">Стоимость</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-right">
+                    <li>
+                        <a class="navbar-number" href="tel:+79274367905">+7 (927) 436-79-05</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <button>
+                                Заказать звонок
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <article class="header-content">
+                <h1>Селюков Андрей</h1>
+                <p>Frontend-разработчик и веб-верстальщик</p>
+                <button>
+                    Узнать больше
+                </button>
+            </article>
+        </article>
+    </header>
+    <main>
+        <section class="works">
+            <div class="container">
+                <h2>Что я делаю</h2>
+
+                <ul class="works-list">
+                    <li>
+                        <img src="imgs/main/works/tools-and-utensils.png" alt="">
+                        <p>
+                            Вёрстка лендинг–страниц
+                            <br>
+                            и сайтов любой сложности
+                        </p>
+                    </li>
+                    <li>
+                        <img src="imgs/main/works/responsive.png" alt="">
+                        <p>
+                            Адаптивная вёрстка под все
+                            <br>
+                            браузеры и устройства
+                        </p>
+                    </li>
+                    <li>
+                        <img src="imgs/main/works/programming.png" alt="">
+                        <p>
+                            Frontend–разработка
+                            <br>
+                            и программирование
+                        </p>
+                    </li>
+                    <li>
+                        <img src="imgs/main/works/coding_(1).png" alt="">
+                        <p>
+                            Исправление и доработка
+                            <br>
+                            существующей вёрстки
+                        </p>
+                    </li>
+                </ul>
+
+                <button class="get-price">
+                    Узнать стоимость
+                </button>
+            </div>
+        </section>
+        <section class="my-works">
+            <div class="container">
+                <h2>Примеры моих работ</h2>
+
+                <ul class="my-works-list">
+                    <li>
+                        <img src="imgs/main/my-works/Layer_2.png" alt="">
+                        <p>
+                            Сайт психолога Веры Антоновой
+                        </p>
+                    </li>
+                    <li>
+                        <img src="imgs/main/my-works/Layer_1.png" alt="">
+                        <p>
+                            Сайт магазина детской одежды
+                        </p>
+                    </li>
+                    <li>
+                        <img src="imgs/main/my-works/Layer_3.png" alt="">
+                        <p>
+                            Сайт магазина «Рыболов»
+                        </p>
+                    </li>
+                </ul>
+
+                <button class="get-project">
+                    Заказать проект
+                </button>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container">
+                <h2>
+                    Адаптивная вёрстка под все устройства
+                    <br> и браузеры от 1000 рублей всего за 4 часа.*
+                </h2>
+                <p>
+                    * Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально,
+                    в зависимости от сложности задач.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <ul class="footer-left">
+                <li>
+                    <a href="#">Услуги</a>
+                </li>
+                <li>
+                    <a href="#">Портфолио</a>
+                </li>
+                <li>
+                    <a href="#">Стоимость</a>
+                </li>
+            </ul>
+
+            <ul class="footer-middle">
+                <li>
+                    <img src="imgs/icons/call-answer_(1).png" alt="">
+                    <a href="tel:+79274367905">+7 (927) 436-79-05</a>
+                </li>
+                <li>
+                    <img src="imgs/icons/envelope_(1).png" alt="">
+                    <a href="#">trezortop92@gmail.com</a>
+                </li>
+            </ul>
+
+            <ul class="footer-right">
+                <li>
+                    <a href="#">
+                        <button>
+                            Заказать звонок
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <ul class="links">
+                        <li>
+                            <a href="#">
+                                <img src="imgs/icons/vk_(1).png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="imgs/icons/facebook-logo_(1).png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="imgs/icons/twitter-logo-silhouette.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="imgs/icons/instagram-social-network-logo-of-photo-camera.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <section class="sub-footer">
+        <p>
+            © Селюков Андрей, 2020-2021
+        </p>
+    </section>
 </body>
+
 </html>

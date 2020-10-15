@@ -1,0 +1,25 @@
+/* CONSTS */
+@import url('settings.css');
+
+/* FONTS */
+@import url('fonts.css');
+
+
+
+/* HEADER */
+@import url('blocks/header.css');
+
+/* WORKS */
+@import url('blocks/works.css');
+
+/* MY-WORKS */
+@import url('blocks/my-works.css');
+
+/* INFO */
+@import url('blocks/info.css');
+
+/* FOOTER */
+@import url('blocks/footer.css');
+
+/* SUB-FOOTER */
+@import url('blocks/sub-footer.css');
