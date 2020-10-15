@@ -1,23 +1,23 @@
-.works {
+.services {
     background-color: white;
 }
 
-.works div {
+.services div {
     padding: 99px 0;
 }
 
-.works-list {
+.services-list {
     margin-top: 93px;
     display: flex;
     justify-content: space-between;
 }
 
-.works-list li {
+.services-list li {
     display: inline;
     text-align: center;
 }
 
-.works-list li p {
+.services-list li p {
     margin-top: 24px;
 
     color: #8993ad;
@@ -26,7 +26,7 @@
     line-height: 30px;
 }
 
-.works .container {
+.services .container {
     display: flex;
     flex-direction: column;
 }
