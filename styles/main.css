@@ -7,19 +7,19 @@
 
 
 /* HEADER */
-@import url('blocks/header.css');
+@import url('content/header.css');
 
 /* WORKS */
-@import url('blocks/services.css');
+@import url('content/services.css');
 
 /* MY-WORKS */
-@import url('blocks/portfolio.css');
+@import url('content/portfolio.css');
 
 /* INFO */
-@import url('blocks/info.css');
+@import url('content/info.css');
 
 /* FOOTER */
-@import url('blocks/footer.css');
+@import url('content/footer.css');
 
 /* SUB-FOOTER */
-@import url('blocks/sub-footer.css');
+@import url('content/sub-footer.css');
