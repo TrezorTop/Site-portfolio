@@ -6,6 +6,8 @@
 
 .portfolio-list {
     margin-top: 93px;
+
+    cursor: pointer;
 }
 
 .portfolio-list .portfolio-item {

@@ -16,6 +16,7 @@ body {
 
 button {
     transition: 250ms;
+    cursor: pointer;
 }
 
 button:focus {
