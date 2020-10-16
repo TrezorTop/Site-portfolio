@@ -31,8 +31,11 @@
     flex-direction: column;
 }
 
-.get-price {
+.get-price-link {
     margin: 95px auto 0 auto;
+}
+
+.get-price {
     padding: 24px 59px;
 
     border: 1px solid transparent;

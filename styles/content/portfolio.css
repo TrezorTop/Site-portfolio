@@ -25,8 +25,11 @@
     line-height: 30px;
 }
 
-.get-project {
+.get-project-link {
     margin: 95px auto 0 auto;
+}
+
+.get-project {
     padding: 24px 59px;
 
     border: 1px solid transparent;
