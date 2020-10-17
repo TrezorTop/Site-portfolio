@@ -5,69 +5,6 @@ header {
     padding: 20px;
 }
 
-header nav {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-
-header nav ul li {
-    display: inline;
-}
-
-.navbar-left {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 279px;
-
-    color: #1f1f24;
-    font-size: 16px;
-    font-weight: 400;
-    color: #fc557c;
-}
-
-.navbar-left a:hover {
-    color: #f53f4f;
-    padding-bottom: 3px;
-    border-bottom: 1px solid #f53f4f;
-}
-
-.navbar-right {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 456px;
-}
-
-.navbar-number {
-    color: #1f1f24;
-    font-size: 25px;
-    font-weight: 700;
-}
-
-.navbar-right button {
-    padding: 15px 41px;
-
-    color: #f53f4f;
-    border: 1px solid #f53f4f;
-    font-size: 16px;
-    font-weight: 400;
-
-    background-color: unset;
-}
-
-.navbar-right button:hover {
-    background-color: #f53f4f;
-    border: 1px solid transparent;
-    color: white;
-}
-
-.navbar-right button:active {
-    background-color: #1f1f24;
-    color: white;
-}
-
 .header-content {
     padding: 228px 0px;
 }

@@ -10,6 +10,30 @@
         max-width: 270px;
     }
 
+    .upper-menu nav {
+        align-items: flex-start;
+    }
+
+    .menu-container {
+        margin-top: 7px;
+    }
+
+    .navbar-left {
+        flex-direction: column;
+        align-items: flex-start;
+        width: fit-content;
+
+        display: none;
+    }
+
+    .navbar-left li {
+        margin-top: 15px;
+    }
+
+    #menu-btn {
+        display: block;
+    }
+
 }
 
 @media (max-width: 700px) {
