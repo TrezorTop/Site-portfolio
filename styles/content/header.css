@@ -2,6 +2,7 @@ header {
     background-image: url('../../imgs/content/header/header-bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    padding: 20px;
 }
 
 header nav {

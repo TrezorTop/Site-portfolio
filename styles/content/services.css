@@ -1,5 +1,6 @@
 .services {
     background-color: white;
+    padding: 20px;
 }
 
 .services div {
@@ -7,14 +8,16 @@
 }
 
 .services-list {
-    margin-top: 93px;
-    display: flex;
-    justify-content: space-between;
+    margin: 93px auto 0 auto;
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .services-list li {
     display: inline;
     text-align: center;
+    margin: 0 auto;
 }
 
 .services-list li p {

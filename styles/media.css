@@ -1,0 +1,27 @@
+@media (max-width: 1024px) {
+
+    .services-list {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 125px;
+        grid-row-gap: 86px;
+    }
+
+    .services-list li {
+        max-width: 270px;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .services-list {
+        grid-template-columns: 1fr;
+        grid-column-gap: 125px;
+        grid-row-gap: 86px;
+    }
+
+    .services-list li {
+        max-width: 270px;
+    }
+
+}

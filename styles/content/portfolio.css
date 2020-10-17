@@ -1,5 +1,5 @@
 .portfolio .container {
-    padding: 99px 0;
+    padding: 99px 20px;
     display: flex;
     flex-direction: column;
 }
