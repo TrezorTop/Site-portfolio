@@ -7,8 +7,10 @@ $(document).ready(function () {
     function menuController() {
         if ($('#menu-btn').hasClass('active')) {
             $('.navbar-left').slideToggle(400);
+            $('#menu-btn').css('color', '#e67315');
         } else {
             $('.navbar-left').slideToggle(400);
+            $('#menu-btn').css('color', '#f53f4f');
         }
 
         $('#menu-btn').toggleClass('active');
