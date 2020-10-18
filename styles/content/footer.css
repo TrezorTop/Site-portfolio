@@ -12,11 +12,12 @@ footer .container {
 i {
     color: gray;
     font-size: 35px;
-    
+
     transition: 250ms;
 }
 
-a:hover, i:hover {
+a:hover,
+i:hover {
     color: #ff6375;
 }
 
@@ -38,8 +39,16 @@ a:hover, i:hover {
     font-weight: 400;
 }
 
-.footer-middle img {
-    margin-right: 20px;
+.footer-middle a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-middle i {
+    color: #ff2f96;
+    font-size: 20px;
+    margin-right: 15px;
 }
 
 .footer-right button {
@@ -54,7 +63,6 @@ a:hover, i:hover {
 }
 
 .footer-right button:hover {
-
     color: white;
 
     background-color: #ff6375;

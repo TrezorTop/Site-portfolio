@@ -40,3 +40,7 @@ a {
 ul li {
     list-style: none;
 }
+
+.phone-number {
+    white-space: nowrap
+}

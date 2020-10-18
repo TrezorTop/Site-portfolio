@@ -3,7 +3,7 @@
 }
 
 .upper-menu {
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.45);
     width: 100%;
 
     position: fixed;
@@ -71,5 +71,5 @@
 }
 
 #menu-btn {
-    color: #f53f4f;
+    color: #ff2f96;
 }
