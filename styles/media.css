@@ -49,4 +49,33 @@
         max-width: 270px;
     }
 
+    footer .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+
+        justify-content: center;
+    }
+
+    .footer-right button {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 610px) {
+
+    .navbar-right .phone-number {
+        display: none;
+    }
+
+    .phone-number-mobile {
+        display: block;
+    }
+
+    .upper-menu {
+        position: unset;
+    }
+
 }

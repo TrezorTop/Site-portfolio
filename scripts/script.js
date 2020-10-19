@@ -23,6 +23,10 @@ $(document).ready(function () {
             loop: true,
             items: 3,
             margin: 30,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplaySpeed: 1000,
+            autoplayHoverPause: true,
             responsive: {
                 0: {
                     items: 1

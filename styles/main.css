@@ -31,3 +31,6 @@
 
 /* MEDIA HOOKS */
 @import url('media.css');
+
+/* FONT ADAPTER */
+@import url('font-adapter.css');

@@ -1,0 +1,28 @@
+@media (max-width: 1200px) {
+
+    .title {
+        font-size: calc( (100vw - 320px)/(1200 - 320) * (80 - 30) + 30px)
+        !important;
+    }
+
+    .header-content p {
+        font-size: calc( (100vw - 320px)/(1200 - 320) * (25 - 16) + 16px)
+        !important;
+    }
+
+    h2 {
+        font-size: calc( (100vw - 320px)/(1200 - 320) * (54 - 30) + 30px)
+        !important;
+    }
+
+    .info h2 {
+        font-size: calc( (100vw - 320px)/(1200 - 320) * (45 - 25) + 25px)
+        !important;
+    }
+
+    .info p {
+        font-size: calc( (100vw - 320px)/(1200 - 320) * (18 - 15) + 15px)
+        !important;
+    }
+
+}
